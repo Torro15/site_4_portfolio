@@ -57,12 +57,6 @@ section {
     align-items: center;
 }
 
-.nav__flex-left {}
-
-.nav__logo {}
-
-.nav__flex-center {}
-
 .nav__menu {
     display: flex;
     justify-content: space-evenly;
@@ -83,8 +77,6 @@ section {
 .nav__menu__link {
     cursor: pointer;
 }
-
-.nav__flex-right {}
 
 .nav__btn {
     width: 220px;
@@ -165,9 +157,7 @@ section {
     padding: 32px 117px;
     border-radius: 15px;
     cursor: pointer;
-
 }
-
 
 .header__img {
     max-width: 661px;
@@ -1947,6 +1937,11 @@ section {
             "four";
         justify-content: space-between;
         margin: 0 auto 84px;
+        width: 100%;
+    }
+
+    .skills__grid-item {
+        width: 100%;
     }
 
     .skills_h2 {
@@ -1979,23 +1974,19 @@ section {
     }
 
     .speaking {
-        width: 290px;
         height: 600px;
     }
 
     .writing {
-        width: 290px;
         height: 473px;
     }
 
     .reading {
-        width: 290px;
         height: 473px;
     }
 
     .listening {
         display: block;
-        width: 290px;
         height: 473px;
     }
 
